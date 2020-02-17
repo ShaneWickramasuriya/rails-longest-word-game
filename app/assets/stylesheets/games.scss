@@ -1,0 +1,31 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200,400,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Catamaran"
+}
+
+.container {
+  width: 80%;
+  padding: 32px 0;
+  margin: 0 auto;
+
+}
+.letter {
+  display: inline-block;
+  padding: 30px;
+  background-color: #5C6B73;
+  color: white;
+  border-radius: 4px;
+  font-family: "Catamaran";
+  font-weight: 600;
+  line-height: 1.0;
+}
+
